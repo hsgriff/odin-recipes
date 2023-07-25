@@ -1,0 +1,12 @@
+a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.home{
+    text-align: center;
+}
+.home img{
+    height: 100px;
+    width: auto;
+}
