@@ -1,7 +1,12 @@
-a {
+.image-link {
     background-color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+a {
     color: white;
     text-decoration: none;
+    background-color: black;
 }
 .home{
     text-align: center;
@@ -11,10 +16,20 @@ a {
     width: auto;
 }
 .sauce-pic{
-    height:400px ;
-    width:auto;
+    display:block;
+    height:auto ;
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    
+}
+div.recs{
+    text-align: center;
+    background-color: grey;
+
 }
 div.recipe{
+    display: inline-block;
     background-color: grey;
     margin-left: 30%;
     margin-right: 30%;
@@ -23,6 +38,5 @@ div.recipe{
 .recipe ul, .recipe ol{
     display: inline-block;
     text-align: left;
-    background-color: grey;
     list-style-position: inside;
 }
