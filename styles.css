@@ -10,3 +10,19 @@ a {
     height: 100px;
     width: auto;
 }
+.sauce-pic{
+    height:400px ;
+    width:auto;
+}
+div.recipe{
+    background-color: grey;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+.recipe ul, .recipe ol{
+    display: inline-block;
+    text-align: left;
+    background-color: grey;
+    list-style-position: inside;
+}
